@@ -1,0 +1,6 @@
+framework module Pods_Honeycomb {
+  umbrella header "Pods-Honeycomb-umbrella.h"
+
+  export *
+  module * { export * }
+}
