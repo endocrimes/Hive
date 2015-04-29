@@ -17,6 +17,13 @@
 		65E7C1FE1AF1690E00A6FBE8 /* NearbyInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C1FD1AF1690E00A6FBE8 /* NearbyInterfaceController.swift */; };
 		65E7C2001AF16A6700A6FBE8 /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C1FF1AF16A6700A6FBE8 /* PlaceRow.swift */; };
 		65E7C2021AF16E8B00A6FBE8 /* PlaceDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C2011AF16E8B00A6FBE8 /* PlaceDetailInterfaceController.swift */; };
+		65E7C20D1AF1759F00A6FBE8 /* Honeycomb.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E7C20C1AF1759F00A6FBE8 /* Honeycomb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E7C2131AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */; };
+		65E7C21C1AF1759F00A6FBE8 /* HoneycombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C21B1AF1759F00A6FBE8 /* HoneycombTests.swift */; };
+		65E7C21F1AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */; };
+		65E7C2201AF1759F00A6FBE8 /* Honeycomb.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65E7C2291AF175B000A6FBE8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C2281AF175B000A6FBE8 /* Place.swift */; };
+		65E7C22B1AF175BE00A6FBE8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C22A1AF175BE00A6FBE8 /* Box.swift */; };
 		65FE301D1AF036430082900C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE301C1AF036430082900C /* AppDelegate.swift */; };
 		65FE30201AF036430082900C /* Hive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65FE301E1AF036430082900C /* Hive.xcdatamodeld */; };
 		65FE30221AF036430082900C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE30211AF036430082900C /* ViewController.swift */; };
@@ -41,6 +48,27 @@
 			remoteGlobalIDString = 65E7C1D91AF167A600A6FBE8;
 			remoteInfo = "Hive WatchKit Extension";
 		};
+		65E7C2141AF1759F00A6FBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FE300F1AF036430082900C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7C2071AF1759F00A6FBE8;
+			remoteInfo = Honeycomb;
+		};
+		65E7C2161AF1759F00A6FBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FE300F1AF036430082900C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FE30161AF036430082900C;
+			remoteInfo = Hive;
+		};
+		65E7C21D1AF1759F00A6FBE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FE300F1AF036430082900C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7C2071AF1759F00A6FBE8;
+			remoteInfo = Honeycomb;
+		};
 		65FE30301AF036430082900C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65FE300F1AF036430082900C /* Project object */;
@@ -62,6 +90,17 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E7C2241AF1759F00A6FBE8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65E7C2201AF1759F00A6FBE8 /* Honeycomb.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +117,14 @@
 		65E7C1FD1AF1690E00A6FBE8 /* NearbyInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyInterfaceController.swift; sourceTree = "<group>"; };
 		65E7C1FF1AF16A6700A6FBE8 /* PlaceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
 		65E7C2011AF16E8B00A6FBE8 /* PlaceDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailInterfaceController.swift; sourceTree = "<group>"; };
+		65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Honeycomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E7C20B1AF1759F00A6FBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E7C20C1AF1759F00A6FBE8 /* Honeycomb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Honeycomb.h; sourceTree = "<group>"; };
+		65E7C2121AF1759F00A6FBE8 /* HoneycombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneycombTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E7C21A1AF1759F00A6FBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E7C21B1AF1759F00A6FBE8 /* HoneycombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombTests.swift; sourceTree = "<group>"; };
+		65E7C2281AF175B000A6FBE8 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		65E7C22A1AF175BE00A6FBE8 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		65FE30171AF036430082900C /* Hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FE301B1AF036430082900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FE301C1AF036430082900C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,10 +146,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65E7C2041AF1759F00A6FBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C20F1AF1759F00A6FBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C2131AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65FE30141AF036430082900C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E7C21F1AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +218,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65E7C2091AF1759F00A6FBE8 /* Honeycomb */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C20C1AF1759F00A6FBE8 /* Honeycomb.h */,
+				65E7C20A1AF1759F00A6FBE8 /* Supporting Files */,
+				65E7C2281AF175B000A6FBE8 /* Place.swift */,
+				65E7C22A1AF175BE00A6FBE8 /* Box.swift */,
+			);
+			path = Honeycomb;
+			sourceTree = "<group>";
+		};
+		65E7C20A1AF1759F00A6FBE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C20B1AF1759F00A6FBE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65E7C2181AF1759F00A6FBE8 /* HoneycombTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C21B1AF1759F00A6FBE8 /* HoneycombTests.swift */,
+				65E7C2191AF1759F00A6FBE8 /* Supporting Files */,
+			);
+			path = HoneycombTests;
+			sourceTree = "<group>";
+		};
+		65E7C2191AF1759F00A6FBE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E7C21A1AF1759F00A6FBE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		65FE300E1AF036430082900C = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +261,8 @@
 				65FE30321AF036430082900C /* HiveTests */,
 				65E7C1DB1AF167A600A6FBE8 /* Hive WatchKit Extension */,
 				65E7C1EB1AF167A600A6FBE8 /* Hive WatchKit App */,
+				65E7C2091AF1759F00A6FBE8 /* Honeycomb */,
+				65E7C2181AF1759F00A6FBE8 /* HoneycombTests */,
 				65FE30181AF036430082900C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +274,8 @@
 				65FE302F1AF036430082900C /* HiveTests.xctest */,
 				65E7C1DA1AF167A600A6FBE8 /* Hive WatchKit Extension.appex */,
 				65E7C1E71AF167A600A6FBE8 /* Hive WatchKit App.app */,
+				65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */,
+				65E7C2121AF1759F00A6FBE8 /* HoneycombTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +323,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		65E7C2051AF1759F00A6FBE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C20D1AF1759F00A6FBE8 /* Honeycomb.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		65E7C1D91AF167A600A6FBE8 /* Hive WatchKit Extension */ = {
 			isa = PBXNativeTarget;
@@ -254,6 +368,43 @@
 			productReference = 65E7C1E71AF167A600A6FBE8 /* Hive WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
+		65E7C2071AF1759F00A6FBE8 /* Honeycomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E7C2211AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "Honeycomb" */;
+			buildPhases = (
+				65E7C2031AF1759F00A6FBE8 /* Sources */,
+				65E7C2041AF1759F00A6FBE8 /* Frameworks */,
+				65E7C2051AF1759F00A6FBE8 /* Headers */,
+				65E7C2061AF1759F00A6FBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeycomb;
+			productName = Honeycomb;
+			productReference = 65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65E7C2111AF1759F00A6FBE8 /* HoneycombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E7C2251AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "HoneycombTests" */;
+			buildPhases = (
+				65E7C20E1AF1759F00A6FBE8 /* Sources */,
+				65E7C20F1AF1759F00A6FBE8 /* Frameworks */,
+				65E7C2101AF1759F00A6FBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E7C2151AF1759F00A6FBE8 /* PBXTargetDependency */,
+				65E7C2171AF1759F00A6FBE8 /* PBXTargetDependency */,
+			);
+			name = HoneycombTests;
+			productName = HoneycombTests;
+			productReference = 65E7C2121AF1759F00A6FBE8 /* HoneycombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		65FE30161AF036430082900C /* Hive */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE30391AF036430082900C /* Build configuration list for PBXNativeTarget "Hive" */;
@@ -262,11 +413,13 @@
 				65FE30141AF036430082900C /* Frameworks */,
 				65FE30151AF036430082900C /* Resources */,
 				65E7C1FC1AF167A600A6FBE8 /* Embed App Extensions */,
+				65E7C2241AF1759F00A6FBE8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				65E7C1F41AF167A600A6FBE8 /* PBXTargetDependency */,
+				65E7C21E1AF1759F00A6FBE8 /* PBXTargetDependency */,
 			);
 			name = Hive;
 			productName = Hive;
@@ -306,6 +459,13 @@
 					65E7C1E61AF167A600A6FBE8 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					65E7C2071AF1759F00A6FBE8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					65E7C2111AF1759F00A6FBE8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 65FE30161AF036430082900C;
+					};
 					65FE30161AF036430082900C = {
 						CreatedOnToolsVersion = 6.3;
 					};
@@ -332,6 +492,8 @@
 				65FE302E1AF036430082900C /* HiveTests */,
 				65E7C1D91AF167A600A6FBE8 /* Hive WatchKit Extension */,
 				65E7C1E61AF167A600A6FBE8 /* Hive WatchKit App */,
+				65E7C2071AF1759F00A6FBE8 /* Honeycomb */,
+				65E7C2111AF1759F00A6FBE8 /* HoneycombTests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +514,20 @@
 			files = (
 				65E7C1F01AF167A600A6FBE8 /* Interface.storyboard in Resources */,
 				65E7C1F21AF167A600A6FBE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C2061AF1759F00A6FBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C2101AF1759F00A6FBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +558,23 @@
 				65E7C2001AF16A6700A6FBE8 /* PlaceRow.swift in Sources */,
 				65E7C1FE1AF1690E00A6FBE8 /* NearbyInterfaceController.swift in Sources */,
 				65E7C2021AF16E8B00A6FBE8 /* PlaceDetailInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C2031AF1759F00A6FBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C2291AF175B000A6FBE8 /* Place.swift in Sources */,
+				65E7C22B1AF175BE00A6FBE8 /* Box.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E7C20E1AF1759F00A6FBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7C21C1AF1759F00A6FBE8 /* HoneycombTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +610,21 @@
 			isa = PBXTargetDependency;
 			target = 65E7C1D91AF167A600A6FBE8 /* Hive WatchKit Extension */;
 			targetProxy = 65E7C1F31AF167A600A6FBE8 /* PBXContainerItemProxy */;
+		};
+		65E7C2151AF1759F00A6FBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E7C2071AF1759F00A6FBE8 /* Honeycomb */;
+			targetProxy = 65E7C2141AF1759F00A6FBE8 /* PBXContainerItemProxy */;
+		};
+		65E7C2171AF1759F00A6FBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FE30161AF036430082900C /* Hive */;
+			targetProxy = 65E7C2161AF1759F00A6FBE8 /* PBXContainerItemProxy */;
+		};
+		65E7C21E1AF1759F00A6FBE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E7C2071AF1759F00A6FBE8 /* Honeycomb */;
+			targetProxy = 65E7C21D1AF1759F00A6FBE8 /* PBXContainerItemProxy */;
 		};
 		65FE30311AF036430082900C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -509,6 +717,83 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		65E7C2221AF1759F00A6FBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Honeycomb/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E7C2231AF1759F00A6FBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Honeycomb/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65E7C2261AF1759F00A6FBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneycombTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hive.app/Hive";
+			};
+			name = Debug;
+		};
+		65E7C2271AF1759F00A6FBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneycombTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hive.app/Hive";
 			};
 			name = Release;
 		};
@@ -663,6 +948,22 @@
 			buildConfigurations = (
 				65E7C1FA1AF167A600A6FBE8 /* Debug */,
 				65E7C1FB1AF167A600A6FBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65E7C2211AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "Honeycomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E7C2221AF1759F00A6FBE8 /* Debug */,
+				65E7C2231AF1759F00A6FBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65E7C2251AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "HoneycombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E7C2261AF1759F00A6FBE8 /* Debug */,
+				65E7C2271AF1759F00A6FBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

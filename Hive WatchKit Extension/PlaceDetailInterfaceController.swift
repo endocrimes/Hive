@@ -7,7 +7,7 @@
 //
 
 import WatchKit
-import Foundation
+import Honeycomb
 
 
 class PlaceDetailInterfaceController: WKInterfaceController {
@@ -15,7 +15,9 @@ class PlaceDetailInterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        if let place = context as? Place {
+        if let box = context as? Box<Place> {
+            let place = box.unBox()
+            
             setTitle(place.title)
         }
     }
