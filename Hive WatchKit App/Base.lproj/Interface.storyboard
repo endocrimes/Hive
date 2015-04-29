@@ -39,6 +39,20 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
+        <!--Alert-->
+        <scene sceneID="eUe-hY-ive">
+            <objects>
+                <controller identifier="AlertController" title="Alert" id="bSp-x5-jlh" customClass="AlertInterfaceController" customModule="Hive_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="147" alignment="left" text="Label" textAlignment="left" numberOfLines="0" id="UCF-Fl-3GA"/>
+                    </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="UCF-Fl-3GA" id="66O-if-9Q4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="223" y="581"/>
+        </scene>
         <!--Place Name-->
         <scene sceneID="UyQ-wp-MSK">
             <objects>
@@ -49,6 +63,21 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="404" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="LtP-CV-2gF">
+            <objects>
+                <notificationController id="dnv-oO-H7O">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="aOi-d6-Wmm"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="ogk-JS-WlM"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="aOi-d6-Wmm" id="Fu0-cb-hNP"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="526" y="974"/>
         </scene>
     </scenes>
 </document>
