@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E6F7C8ED26BF82B35ACF30 /* Pods_HiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195D56DDAD2BC77A35D520C9 /* Pods_HiveTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		41BF1C6000C78E11C59E257F /* Pods_Honeycomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7257B80A73B17265D3283AC /* Pods_Honeycomb.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		65E7C1E41AF167A600A6FBE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C1E31AF167A600A6FBE8 /* Images.xcassets */; };
 		65E7C1E81AF167A600A6FBE8 /* Hive WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C1E71AF167A600A6FBE8 /* Hive WatchKit App.app */; };
 		65E7C1F01AF167A600A6FBE8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E7C1EE1AF167A600A6FBE8 /* Interface.storyboard */; };
@@ -22,13 +24,17 @@
 		65E7C2201AF1759F00A6FBE8 /* Honeycomb.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65E7C2081AF1759F00A6FBE8 /* Honeycomb.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65E7C2291AF175B000A6FBE8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C2281AF175B000A6FBE8 /* Place.swift */; };
 		65E7C22B1AF175BE00A6FBE8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C22A1AF175BE00A6FBE8 /* Box.swift */; };
+		65E7C22F1AF17A4800A6FBE8 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C22E1AF17A4800A6FBE8 /* LocationController.swift */; };
 		65FE301D1AF036430082900C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE301C1AF036430082900C /* AppDelegate.swift */; };
 		65FE30221AF036430082900C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE30211AF036430082900C /* ViewController.swift */; };
 		65FE30251AF036430082900C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FE30231AF036430082900C /* Main.storyboard */; };
 		65FE30271AF036430082900C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FE30261AF036430082900C /* Images.xcassets */; };
 		65FE302A1AF036430082900C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FE30281AF036430082900C /* LaunchScreen.xib */; };
 		65FE30361AF036430082900C /* HiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE30351AF036430082900C /* HiveTests.swift */; };
-		87149D8ECAD34F31D878CCC6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFA5740A9E7222E890C9804 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AC9C08A297AFA316152E82CB /* Pods_Hive_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC18A5F1447E684E760135F /* Pods_Hive_WatchKit_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CFE5E2082443246D15E2C7C2 /* Pods_HoneycombTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BFF08FCCA0BE352712F690 /* Pods_HoneycombTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DF1E81B8F5107623850CA693 /* Pods_Hive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39956CB76CE6E38535A28DC /* Pods_Hive.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FB3AFEA0D563CB03972EF36A /* Pods_Hive_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF30A0D69523B1A8BA8B03C /* Pods_Hive_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +108,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		195D56DDAD2BC77A35D520C9 /* Pods_HiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EE20F1D367B5B9489D1E58 /* Pods-Hive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hive/Pods-Hive.release.xcconfig"; sourceTree = "<group>"; };
+		48BFF08FCCA0BE352712F690 /* Pods_HoneycombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoneycombTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501BCC5D6FE53273584E5C36 /* Pods-HoneycombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneycombTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoneycombTests/Pods-HoneycombTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5251513A791363B64C3EDAC2 /* Pods-HoneycombTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoneycombTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoneycombTests/Pods-HoneycombTests.release.xcconfig"; sourceTree = "<group>"; };
 		65E7C1DA1AF167A600A6FBE8 /* Hive WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hive WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E7C1DD1AF167A600A6FBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65E7C1DE1AF167A600A6FBE8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -121,6 +132,8 @@
 		65E7C21B1AF1759F00A6FBE8 /* HoneycombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombTests.swift; sourceTree = "<group>"; };
 		65E7C2281AF175B000A6FBE8 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		65E7C22A1AF175BE00A6FBE8 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		65E7C22E1AF17A4800A6FBE8 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		65E7C2301AF17B8700A6FBE8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "Pods/../build/Debug-iphoneos/Pods-Honeycomb/Result.framework"; sourceTree = "<group>"; };
 		65FE30171AF036430082900C /* Hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FE301B1AF036430082900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FE301C1AF036430082900C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,9 +144,20 @@
 		65FE302F1AF036430082900C /* HiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FE30341AF036430082900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FE30351AF036430082900C /* HiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiveTests.swift; sourceTree = "<group>"; };
+		69038C97FC7441D20CB80F02 /* Pods-Honeycomb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honeycomb.release.xcconfig"; path = "Pods/Target Support Files/Pods-Honeycomb/Pods-Honeycomb.release.xcconfig"; sourceTree = "<group>"; };
+		6979ACBB5646E95F4A609BDD /* Pods-Hive WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hive WatchKit App/Pods-Hive WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		6D4BF029FC395623DE2679E8 /* Pods-Hive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hive/Pods-Hive.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC18A5F1447E684E760135F /* Pods_Hive_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hive_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFA5740A9E7222E890C9804 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C2D97EC22974A3904E722A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F91E53C72D95A6592937753D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A39956CB76CE6E38535A28DC /* Pods_Hive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D6ECC34157036095E18756 /* Pods-Hive WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hive WatchKit Extension/Pods-Hive WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C7257B80A73B17265D3283AC /* Pods_Honeycomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Honeycomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A57FE4082759B82EE42FF2 /* Pods-HiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiveTests/Pods-HiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF8F39B3855651524A20A73D /* Pods-HiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiveTests/Pods-HiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF30A0D69523B1A8BA8B03C /* Pods_Hive_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hive_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFD5813FD45E03C43061CAE /* Pods-Hive WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hive WatchKit Extension/Pods-Hive WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		EF92A5DE0FAB7CAA748206D2 /* Pods-Hive WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hive WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hive WatchKit App/Pods-Hive WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE6628A3B4CBC00B1BF4D4C /* Pods-Honeycomb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Honeycomb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Honeycomb/Pods-Honeycomb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3AFEA0D563CB03972EF36A /* Pods_Hive_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BF1C6000C78E11C59E257F /* Pods_Honeycomb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C2131AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */,
+				CFE5E2082443246D15E2C7C2 /* Pods_HoneycombTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C21F1AF1759F00A6FBE8 /* Honeycomb.framework in Frameworks */,
-				87149D8ECAD34F31D878CCC6 /* Pods.framework in Frameworks */,
+				DF1E81B8F5107623850CA693 /* Pods_Hive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +199,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E6F7C8ED26BF82B35ACF30 /* Pods_HiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97208E9E9A62A6B10A22646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C08A297AFA316152E82CB /* Pods_Hive_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +260,7 @@
 				65E7C20A1AF1759F00A6FBE8 /* Supporting Files */,
 				65E7C2281AF175B000A6FBE8 /* Place.swift */,
 				65E7C22A1AF175BE00A6FBE8 /* Box.swift */,
+				65E7C22E1AF17A4800A6FBE8 /* LocationController.swift */,
 			);
 			path = Honeycomb;
 			sourceTree = "<group>";
@@ -263,8 +300,8 @@
 				65E7C2091AF1759F00A6FBE8 /* Honeycomb */,
 				65E7C2181AF1759F00A6FBE8 /* HoneycombTests */,
 				65FE30181AF036430082900C /* Products */,
-				C34D970577CE0293282E932A /* Pods */,
 				AFE0C1F48DC73BB16E4759B9 /* Frameworks */,
+				B3D8F628E87A7B567B3420A9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -322,16 +359,33 @@
 		AFE0C1F48DC73BB16E4759B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65E7C2301AF17B8700A6FBE8 /* Result.framework */,
 				8CFA5740A9E7222E890C9804 /* Pods.framework */,
+				A39956CB76CE6E38535A28DC /* Pods_Hive.framework */,
+				6DC18A5F1447E684E760135F /* Pods_Hive_WatchKit_App.framework */,
+				EAF30A0D69523B1A8BA8B03C /* Pods_Hive_WatchKit_Extension.framework */,
+				195D56DDAD2BC77A35D520C9 /* Pods_HiveTests.framework */,
+				C7257B80A73B17265D3283AC /* Pods_Honeycomb.framework */,
+				48BFF08FCCA0BE352712F690 /* Pods_HoneycombTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C34D970577CE0293282E932A /* Pods */ = {
+		B3D8F628E87A7B567B3420A9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F91E53C72D95A6592937753D /* Pods.debug.xcconfig */,
-				9C2D97EC22974A3904E722A5 /* Pods.release.xcconfig */,
+				6D4BF029FC395623DE2679E8 /* Pods-Hive.debug.xcconfig */,
+				22EE20F1D367B5B9489D1E58 /* Pods-Hive.release.xcconfig */,
+				EF92A5DE0FAB7CAA748206D2 /* Pods-Hive WatchKit App.debug.xcconfig */,
+				6979ACBB5646E95F4A609BDD /* Pods-Hive WatchKit App.release.xcconfig */,
+				C1D6ECC34157036095E18756 /* Pods-Hive WatchKit Extension.debug.xcconfig */,
+				EDFD5813FD45E03C43061CAE /* Pods-Hive WatchKit Extension.release.xcconfig */,
+				DF8F39B3855651524A20A73D /* Pods-HiveTests.debug.xcconfig */,
+				D5A57FE4082759B82EE42FF2 /* Pods-HiveTests.release.xcconfig */,
+				FCE6628A3B4CBC00B1BF4D4C /* Pods-Honeycomb.debug.xcconfig */,
+				69038C97FC7441D20CB80F02 /* Pods-Honeycomb.release.xcconfig */,
+				501BCC5D6FE53273584E5C36 /* Pods-HoneycombTests.debug.xcconfig */,
+				5251513A791363B64C3EDAC2 /* Pods-HoneycombTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -354,9 +408,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E7C1F91AF167A600A6FBE8 /* Build configuration list for PBXNativeTarget "Hive WatchKit Extension" */;
 			buildPhases = (
+				E371C38A357CAF1A86B4A7E9 /* Check Pods Manifest.lock */,
 				65E7C1D61AF167A600A6FBE8 /* Sources */,
 				65E7C1D71AF167A600A6FBE8 /* Frameworks */,
 				65E7C1D81AF167A600A6FBE8 /* Resources */,
+				6B925B1BEF443794007BDAB0 /* Embed Pods Frameworks */,
+				4EEEC843CBBCB13E402C4BEC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,7 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E7C1F61AF167A600A6FBE8 /* Build configuration list for PBXNativeTarget "Hive WatchKit App" */;
 			buildPhases = (
+				6CAF41877494330DB339058A /* Check Pods Manifest.lock */,
 				65E7C1E51AF167A600A6FBE8 /* Resources */,
+				A97208E9E9A62A6B10A22646 /* Frameworks */,
+				0F3CCEB7E543896D3256937D /* Embed Pods Frameworks */,
+				8E9794477C9BF75C3C94891C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -387,10 +448,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E7C2211AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "Honeycomb" */;
 			buildPhases = (
+				13DF47E39BF8449AE627375D /* Check Pods Manifest.lock */,
 				65E7C2031AF1759F00A6FBE8 /* Sources */,
 				65E7C2041AF1759F00A6FBE8 /* Frameworks */,
 				65E7C2051AF1759F00A6FBE8 /* Headers */,
 				65E7C2061AF1759F00A6FBE8 /* Resources */,
+				DE6DE27CEEBEB583DFDEE852 /* Embed Pods Frameworks */,
+				759B4C7B25AC49D271482006 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,9 +469,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65E7C2251AF1759F00A6FBE8 /* Build configuration list for PBXNativeTarget "HoneycombTests" */;
 			buildPhases = (
+				67E1B72163D5C84BD13BE388 /* Check Pods Manifest.lock */,
 				65E7C20E1AF1759F00A6FBE8 /* Sources */,
 				65E7C20F1AF1759F00A6FBE8 /* Frameworks */,
 				65E7C2101AF1759F00A6FBE8 /* Resources */,
+				AD8FC740B1591246572926B6 /* Embed Pods Frameworks */,
+				31D16032C322156FF75AE80E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -424,14 +491,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE30391AF036430082900C /* Build configuration list for PBXNativeTarget "Hive" */;
 			buildPhases = (
-				25329125069FE62B21ED5F50 /* Check Pods Manifest.lock */,
+				3159AA2006EC02C2D81CA2BB /* Check Pods Manifest.lock */,
 				65FE30131AF036430082900C /* Sources */,
 				65FE30141AF036430082900C /* Frameworks */,
 				65FE30151AF036430082900C /* Resources */,
 				65E7C1FC1AF167A600A6FBE8 /* Embed App Extensions */,
 				65E7C2241AF1759F00A6FBE8 /* Embed Frameworks */,
-				9194528D1F517F6704AB26A3 /* Embed Pods Frameworks */,
-				5BDFA29AF41C30FAB67A7125 /* Copy Pods Resources */,
+				757E95B5815EA9A431DA01D3 /* Embed Pods Frameworks */,
+				E82691ECA0755E7FD3527426 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -448,9 +515,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE303C1AF036430082900C /* Build configuration list for PBXNativeTarget "HiveTests" */;
 			buildPhases = (
+				C100EE56579E38E5356FE269 /* Check Pods Manifest.lock */,
 				65FE302B1AF036430082900C /* Sources */,
 				65FE302C1AF036430082900C /* Frameworks */,
 				65FE302D1AF036430082900C /* Resources */,
+				713E6DB2087F1C4070D06A78 /* Embed Pods Frameworks */,
+				278B4880AAFE6E31138780F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -569,7 +639,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25329125069FE62B21ED5F50 /* Check Pods Manifest.lock */ = {
+		0F3CCEB7E543896D3256937D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive WatchKit App/Pods-Hive WatchKit App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13DF47E39BF8449AE627375D /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,7 +669,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5BDFA29AF41C30FAB67A7125 /* Copy Pods Resources */ = {
+		278B4880AAFE6E31138780F6 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,10 +681,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiveTests/Pods-HiveTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9194528D1F517F6704AB26A3 /* Embed Pods Frameworks */ = {
+		3159AA2006EC02C2D81CA2BB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31D16032C322156FF75AE80E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneycombTests/Pods-HoneycombTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EEEC843CBBCB13E402C4BEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive WatchKit Extension/Pods-Hive WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E1B72163D5C84BD13BE388 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B925B1BEF443794007BDAB0 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,7 +756,157 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive WatchKit Extension/Pods-Hive WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CAF41877494330DB339058A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		713E6DB2087F1C4070D06A78 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiveTests/Pods-HiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		757E95B5815EA9A431DA01D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive/Pods-Hive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759B4C7B25AC49D271482006 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Honeycomb/Pods-Honeycomb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E9794477C9BF75C3C94891C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive WatchKit App/Pods-Hive WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8FC740B1591246572926B6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoneycombTests/Pods-HoneycombTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C100EE56579E38E5356FE269 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6DE27CEEBEB583DFDEE852 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Honeycomb/Pods-Honeycomb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E371C38A357CAF1A86B4A7E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E82691ECA0755E7FD3527426 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hive/Pods-Hive-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -632,6 +927,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65E7C2291AF175B000A6FBE8 /* Place.swift in Sources */,
+				65E7C22F1AF17A4800A6FBE8 /* LocationController.swift in Sources */,
 				65E7C22B1AF175BE00A6FBE8 /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -726,6 +1022,7 @@
 /* Begin XCBuildConfiguration section */
 		65E7C1F71AF167A600A6FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF92A5DE0FAB7CAA748206D2 /* Pods-Hive WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -744,6 +1041,7 @@
 		};
 		65E7C1F81AF167A600A6FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6979ACBB5646E95F4A609BDD /* Pods-Hive WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = Hive_WatchKit_Extension;
@@ -758,6 +1056,7 @@
 		};
 		65E7C1FA1AF167A600A6FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D6ECC34157036095E18756 /* Pods-Hive WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -774,6 +1073,7 @@
 		};
 		65E7C1FB1AF167A600A6FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFD5813FD45E03C43061CAE /* Pods-Hive WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Hive WatchKit Extension/Info.plist";
@@ -785,6 +1085,7 @@
 		};
 		65E7C2221AF1759F00A6FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE6628A3B4CBC00B1BF4D4C /* Pods-Honeycomb.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -792,6 +1093,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-Honeycomb",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -810,6 +1116,7 @@
 		};
 		65E7C2231AF1759F00A6FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69038C97FC7441D20CB80F02 /* Pods-Honeycomb.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -817,6 +1124,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-Honeycomb",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Honeycomb/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -830,6 +1142,7 @@
 		};
 		65E7C2261AF1759F00A6FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501BCC5D6FE53273584E5C36 /* Pods-HoneycombTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -848,6 +1161,7 @@
 		};
 		65E7C2271AF1759F00A6FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5251513A791363B64C3EDAC2 /* Pods-HoneycombTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -943,7 +1257,7 @@
 		};
 		65FE303A1AF036430082900C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91E53C72D95A6592937753D /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 6D4BF029FC395623DE2679E8 /* Pods-Hive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hive/Info.plist;
@@ -954,7 +1268,7 @@
 		};
 		65FE303B1AF036430082900C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C2D97EC22974A3904E722A5 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 22EE20F1D367B5B9489D1E58 /* Pods-Hive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hive/Info.plist;
@@ -965,6 +1279,7 @@
 		};
 		65FE303D1AF036430082900C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8F39B3855651524A20A73D /* Pods-HiveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -984,6 +1299,7 @@
 		};
 		65FE303E1AF036430082900C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A57FE4082759B82EE42FF2 /* Pods-HiveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
