@@ -23,7 +23,6 @@
 		65E7C2291AF175B000A6FBE8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C2281AF175B000A6FBE8 /* Place.swift */; };
 		65E7C22B1AF175BE00A6FBE8 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7C22A1AF175BE00A6FBE8 /* Box.swift */; };
 		65FE301D1AF036430082900C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE301C1AF036430082900C /* AppDelegate.swift */; };
-		65FE30201AF036430082900C /* Hive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65FE301E1AF036430082900C /* Hive.xcdatamodeld */; };
 		65FE30221AF036430082900C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE30211AF036430082900C /* ViewController.swift */; };
 		65FE30251AF036430082900C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FE30231AF036430082900C /* Main.storyboard */; };
 		65FE30271AF036430082900C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FE30261AF036430082900C /* Images.xcassets */; };
@@ -125,7 +124,6 @@
 		65FE30171AF036430082900C /* Hive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FE301B1AF036430082900C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FE301C1AF036430082900C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65FE301F1AF036430082900C /* Hive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hive.xcdatamodel; sourceTree = "<group>"; };
 		65FE30211AF036430082900C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65FE30241AF036430082900C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65FE30261AF036430082900C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -291,7 +289,6 @@
 				65FE30231AF036430082900C /* Main.storyboard */,
 				65FE30261AF036430082900C /* Images.xcassets */,
 				65FE30281AF036430082900C /* LaunchScreen.xib */,
-				65FE301E1AF036430082900C /* Hive.xcdatamodeld */,
 				65FE301A1AF036430082900C /* Supporting Files */,
 			);
 			path = Hive;
@@ -653,7 +650,6 @@
 			files = (
 				65FE30221AF036430082900C /* ViewController.swift in Sources */,
 				65FE301D1AF036430082900C /* AppDelegate.swift in Sources */,
-				65FE30201AF036430082900C /* Hive.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,19 +1064,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		65FE301E1AF036430082900C /* Hive.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				65FE301F1AF036430082900C /* Hive.xcdatamodel */,
-			);
-			currentVersion = 65FE301F1AF036430082900C /* Hive.xcdatamodel */;
-			path = Hive.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 65FE300F1AF036430082900C /* Project object */;
 }
