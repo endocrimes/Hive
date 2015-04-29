@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Nearby-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Nearby" id="AgC-eL-Hgc" customClass="NearbyInterfaceController" customModule="Hive_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="LRz-bu-OUJ">
+                            <items>
+                                <tableRow identifier="PlaceRow" id="ShO-04-6Pn" customClass="PlaceRow" customModule="Hive_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="7qL-zm-xST">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="bottom" text="10m" textAlignment="left" id="dbs-9b-kVY">
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                            </label>
+                                            <label alignment="left" text="Place Name" textAlignment="left" numberOfLines="0" id="Xyx-ae-Nr3">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="detailLabel" destination="dbs-9b-kVY" id="CgZ-py-RRw"/>
+                                        <outlet property="titleLabel" destination="Xyx-ae-Nr3" id="CnG-Sj-9yb"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="placeTable" destination="LRz-bu-OUJ" id="yxR-Ne-YeI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Place Name-->
+        <scene sceneID="UyQ-wp-MSK">
+            <objects>
+                <controller identifier="DetailController" title="Place Name" id="i3W-Xl-yKy" customClass="PlaceDetailInterfaceController" customModule="Hive_WatchKit_Extension">
+                    <items>
+                        <button width="136" alignment="center" verticalAlignment="center" title="Check In" id="2fn-gm-toL"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="404" y="345"/>
+        </scene>
+    </scenes>
+</document>
