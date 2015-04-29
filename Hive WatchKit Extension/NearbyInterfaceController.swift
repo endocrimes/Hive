@@ -7,17 +7,8 @@
 //
 
 import WatchKit
+import Honeycomb
 
-class Place {
-    let title: String
-    let distance: String
-    let identifier: String = "DemoIdentifier"
-    
-    init(title: String, distance: String) {
-        self.title = title
-        self.distance = distance
-    }
-}
 
 class NearbyInterfaceController: WKInterfaceController {
     @IBOutlet weak var placeTable: WKInterfaceTable?
@@ -30,7 +21,7 @@ class NearbyInterfaceController: WKInterfaceController {
     }
     
     override func table(table: WKInterfaceTable, didSelectRowAtIndex rowIndex: Int) {
-        self.pushControllerWithName("DetailController", context: data[rowIndex])
+        self.pushControllerWithName("DetailController", context: Box(data[rowIndex]))
     }
     
     func reloadTable() {
