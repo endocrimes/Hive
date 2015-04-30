@@ -1,10 +1,13 @@
 PODS:
+  - Foursquare-iOS-API (2.0)
   - Result (0.3.2)
 
 DEPENDENCIES:
+  - Foursquare-iOS-API (~> 2.0)
   - Result
 
 SPEC CHECKSUMS:
+  Foursquare-iOS-API: 724e6781f713cab2df8eef2e78f15c2af6bf6378
   Result: 81c3da19af8fbc2ecfb21edce137dc5b23b3659b
 
 COCOAPODS: 0.37.0.rc.1

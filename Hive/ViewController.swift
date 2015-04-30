@@ -13,11 +13,13 @@ import CoreLocation
 
 class ViewController: UIViewController {
     var locationManager = CLLocationManager()
+    var apiController = APIController()
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
         locationManager.requestAlwaysAuthorization()
+        apiController.launchAuthenticationFlow()
     }
     
 }

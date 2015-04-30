@@ -1,0 +1,6 @@
+framework module Foursquare_iOS_API {
+  umbrella header "Pods-Hive WatchKit Extension-Foursquare-iOS-API-umbrella.h"
+
+  export *
+  module * { export * }
+}

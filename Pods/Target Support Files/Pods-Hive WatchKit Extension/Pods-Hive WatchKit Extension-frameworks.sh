@@ -48,8 +48,10 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Foursquare_iOS_API.framework'
   install_framework 'Result.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Foursquare_iOS_API.framework'
   install_framework 'Result.framework'
 fi
