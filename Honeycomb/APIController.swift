@@ -2,7 +2,7 @@
 //  APIController.swift
 //  Hive
 //
-//  Created by  Danielle Lancashireon 30/04/2015.
+//  Created by Danielle Lancashire on 30/04/2015.
 //  Copyright (c) 2015 Rocket Apps. All rights reserved.
 //
 

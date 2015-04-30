@@ -2,7 +2,7 @@
 //  Honeycomb.h
 //  Honeycomb
 //
-//  Created by  Danielle Lancashireon 29/04/2015.
+//  Created by Danielle Lancashire on 29/04/2015.
 //  Copyright (c) 2015 Rocket Apps. All rights reserved.
 //
 

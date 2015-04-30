@@ -2,7 +2,7 @@
 //  HiveTests.swift
 //  HiveTests
 //
-//  Created by  Danielle Lancashireon 28/04/2015.
+//  Created by Danielle Lancashire on 28/04/2015.
 //  Copyright (c) 2015 Rocket Apps. All rights reserved.
 //
 
