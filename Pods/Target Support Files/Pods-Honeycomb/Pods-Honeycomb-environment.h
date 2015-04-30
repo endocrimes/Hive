@@ -6,6 +6,12 @@
 // project.
 
 
+// Foursquare-iOS-API
+#define COCOAPODS_POD_AVAILABLE_Foursquare_iOS_API
+#define COCOAPODS_VERSION_MAJOR_Foursquare_iOS_API 2
+#define COCOAPODS_VERSION_MINOR_Foursquare_iOS_API 0
+#define COCOAPODS_VERSION_PATCH_Foursquare_iOS_API 0
+
 // Result
 #define COCOAPODS_POD_AVAILABLE_Result
 #define COCOAPODS_VERSION_MAJOR_Result 0

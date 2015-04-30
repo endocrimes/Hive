@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double HoneycombVersionNumber;
 FOUNDATION_EXPORT const unsigned char HoneycombVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Honeycomb/PublicHeader.h>
-
-
