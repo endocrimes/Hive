@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Hive
 //
-//  Created by  Danielle Lancashireon 28/04/2015.
+//  Created by Danielle Lancashire on 28/04/2015.
 //  Copyright (c) 2015 Rocket Apps. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        let accessToken = url.descriptiong.componentsSeparatedByString("=")[1]
+        let accessToken = url.description.componentsSeparatedByString("=")[1]
         println("Access Token: \(accessToken)")
         
         return true
