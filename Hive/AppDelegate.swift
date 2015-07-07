@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        let accessToken = url.descriptiong.componentsSeparatedByString("=")[1]
+        let accessToken = url.description.componentsSeparatedByString("=")[1]
         println("Access Token: \(accessToken)")
         
         return true
